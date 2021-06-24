@@ -1,0 +1,3 @@
+--사용자 생성 및 권한부여(system 로그인)
+CREATE USER bk001 IDENTIFIED BY bk001;
+GRANT CONNECT, RESOURCE TO bk001;
